@@ -387,6 +387,23 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
+.teams .carousel .card a{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+}
+
+.teams .carousel .card a:hover {
+    color: crimson;
+    background-color: #fff;
+}
+
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
